@@ -1,0 +1,66 @@
+.box {
+    min-height: 600px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.box-list td,
+.box-list th {
+    vertical-align: middle !important;
+}
+
+table {
+    border-collapse: collapse !important;
+}
+
+#datatable img {
+    width: 30px;
+    height: 30px
+}
+
+#datatable_slideshow img {
+    height: 30px
+}
+
+.room-empty {
+    background: #00FF00 !important;
+    color: black !important;
+    border: none;
+}
+
+.room-checkin {
+    background: #FF0000 !important;
+    color: black !important;
+    border: none;
+}
+
+.room-wait-checkin {
+    background: #FFFF00 !important;
+    color: black !important;
+    border: none;
+}
+
+.roomtype-name {
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+.room-detail {
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.room-name {
+    text-align: center;
+    border-bottom: 1px solid #3c3c3c;
+    margin: 0;
+    padding: 15px 0;
+}
+#totalMoney{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+}
